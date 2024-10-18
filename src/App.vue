@@ -1,12 +1,15 @@
-<script setup>
-import HomeView from './views/HomeView.vue'
-</script>
-
 <template>
-  <div>
-    <HomeView />
+  <div id="app" class="container mt-4">
+    <router-view />
   </div>
 </template>
 
-<style scoped>
+<script>
+export default {
+  name: 'App'
+};
+</script>
+
+<style>
+
 </style>
